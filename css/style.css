@@ -118,3 +118,19 @@ header .col-4:last-child{
     padding: 10px;
     border: 1px solid black;
 }
+
+/****************
+    CONTACT
+****************/
+
+#contact .col-8 input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 15px 0;
+}
+
+#contact .btn{
+    border: 1px solid gray;
+    margin-top: 20px;
+}

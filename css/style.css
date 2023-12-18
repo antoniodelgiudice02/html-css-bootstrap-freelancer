@@ -7,9 +7,24 @@
     border: 1px solid red;
 }
 
-.flex{
-    display: flex;
+.container{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+.ruler-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ruler{
+    border: 1px solid;
+    height: 1px;
+    width: 50px;
+    margin: 0 10px
+}
+
 
 /**********************************************************+
 
@@ -45,8 +60,7 @@ header .col-4:last-child{
     JUMBOTRON
 ****************/
 
-#jumbotron .container{
-    height: 400px;
+#jumbotron{
     background-color: #1abc9c;
 }
 
@@ -58,36 +72,20 @@ header .col-4:last-child{
     margin-top: 20px;
 }
 
-#jumbotron .flex{
-    justify-content: center;
-    align-items: center;
-}
-
 #jumbotron .ruler{
-    border: 1px solid white;
-    height: 1px;
-    width: 50px;
-    margin: 0 10px
+    border-color: white;
 }
 
 /****************
     PORTFOLIO
 ****************/
 
-#portfolio p{
-    margin-top: 20px;
-}
-
-#portfolio .flex{
-    justify-content: center;
-    align-items: center;
+#portfolio{
+    background-color: white;
 }
 
 #portfolio .ruler{
-    border: 1px solid black;
-    height: 1px;
-    width: 50px;
-    margin: 0 10px
+    border-color: black;
 }
 
 #portfolio .row{
@@ -99,3 +97,24 @@ header .col-4:last-child{
     background-color: #2c3e50;
 }
 
+
+/****************
+    ABOUT
+****************/
+
+#about{
+    background-color: #9db6cf;
+}
+
+#about .row{
+    flex-direction: column;
+}
+
+#about .ruler{
+    border-color: white;
+}
+
+#about .btn{
+    padding: 10px;
+    border: 1px solid black;
+}

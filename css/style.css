@@ -3,13 +3,15 @@
     --black-text: black;
 }
 
-.debug{
-    border: 1px solid red;
-}
+
 
 .container{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.flex{
+    display: flex;
 }
 
 .ruler-flex{
@@ -134,3 +136,18 @@ header .col-4:last-child{
     border: 1px solid gray;
     margin-top: 20px;
 }
+
+/****************
+    FOOTER
+****************/
+
+footer .row{
+    flex-direction: column;
+}
+
+footer li{
+    margin: 0 10px;
+    list-style: none;
+}
+
+footer .col

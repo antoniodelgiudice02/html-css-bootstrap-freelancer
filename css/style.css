@@ -1,20 +1,68 @@
+:root{
+    --white-text: white;
+    --black-text: black;
+}
+
 .debug{
     border: 1px solid red;
 }
 
-/*HEADER*/
+/**********************************************************+
+
+                        HEADER                          
+
+************************************************************/
 
 .container{
     height: 100px;
-    background-color: cornflowerblue;
+    background-color: #2c3e50;
 }
 
 header .row{
     height: 100%;
-    align-items: center;
-    justify-content: space-between;
+}
+
+header .col-4{
+    color: var(--white-text);
 }
 
 header .col-4:last-child{
     text-align: end;
+}
+
+
+/**********************************************************+
+
+                        MAIN                          
+                        
+************************************************************/
+
+/****************
+    JUMBOTRON
+****************/
+
+#jumbotron .container{
+    height: 400px;
+    background-color: #1abc9c;
+}
+
+#jumbotron .row{
+    flex-direction: column;
+}
+
+#jumbotron .col-7{
+    margin-top: 20px;
+}
+
+#jumbotron .col:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jumbotron .ruler{
+    border: 1px solid white;
+    height: 1px;
+    width: 50px;
+    margin: 0 10px
 }

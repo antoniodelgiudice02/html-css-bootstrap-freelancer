@@ -7,13 +7,17 @@
     border: 1px solid red;
 }
 
+.flex{
+    display: flex;
+}
+
 /**********************************************************+
 
                         HEADER                          
 
 ************************************************************/
 
-.container{
+header .container{
     height: 100px;
     background-color: #2c3e50;
 }
@@ -54,8 +58,7 @@ header .col-4:last-child{
     margin-top: 20px;
 }
 
-#jumbotron .col:nth-child(3){
-    display: flex;
+#jumbotron .flex{
     justify-content: center;
     align-items: center;
 }
@@ -66,3 +69,33 @@ header .col-4:last-child{
     width: 50px;
     margin: 0 10px
 }
+
+/****************
+    PORTFOLIO
+****************/
+
+#portfolio p{
+    margin-top: 20px;
+}
+
+#portfolio .flex{
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio .ruler{
+    border: 1px solid black;
+    height: 1px;
+    width: 50px;
+    margin: 0 10px
+}
+
+#portfolio .row{
+    flex-direction: column;
+}
+
+#portfolio .card{
+    height: 300px;
+    background-color: #2c3e50;
+}
+

@@ -1,23 +1,13 @@
 :root{
-    --white-text: white;
-    --black-text: black;
+    --primary-color: white;
+    --secondary-color: #2c3e50;
+    --third-color: #1abc9c;
+    --footer-color: #3a546d;
 }
-
-
 
 .container{
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.flex{
-    display: flex;
-}
-
-.ruler-flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .ruler{
@@ -36,7 +26,6 @@
 
 header{
     background-color: #2c3e50;
-
 }
 
 header .container{
@@ -47,14 +36,15 @@ header .row{
     height: 100%;
 }
 
-header .col-4{
-    color: var(--white-text);
+header .col-6{
+    color: var(--primary-color);
+    font-weight: bold;
 }
 
-header .col-4:last-child{
-    text-align: end;
+header .btn{
+    border: 1px solid white;
+    color: gray;
 }
-
 
 /**********************************************************+
 
@@ -145,5 +135,3 @@ footer li{
     margin: 0 10px;
     list-style: none;
 }
-
-footer .col

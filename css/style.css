@@ -12,9 +12,14 @@
 
 .ruler{
     border: 1px solid;
-    height: 1px;
-    width: 50px;
+    height: 3px;
+    border-radius: 10px;
+    width: 10%;
     margin: 0 10px
+}
+
+h1, .h1{
+    font-weight: bold;
 }
 
 
@@ -60,6 +65,10 @@ header .btn{
     background-color: #1abc9c;
 }
 
+#jumbotron .container{
+    color: var(--primary-color);
+}
+
 #jumbotron .row{
     flex-direction: column;
 }
@@ -68,8 +77,12 @@ header .btn{
     margin-top: 20px;
 }
 
+#jumbotron .ms_title{
+    font-size: 2.2rem;
+}
+
 #jumbotron .ruler{
-    border-color: white;
+    background-color: var(--primary-color);
 }
 
 /****************

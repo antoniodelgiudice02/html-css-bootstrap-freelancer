@@ -1,3 +1,7 @@
+*{
+    list-style: none;
+}
+
 :root{
     --primary-color: white;
     --secondary-color: #2c3e50;
@@ -49,6 +53,15 @@ header .col-6{
 header .btn{
     border: 1px solid white;
     color: gray;
+}
+
+header li{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+header .ms_mb{
+    margin-bottom: 0;
 }
 
 /**********************************************************+

@@ -131,6 +131,10 @@ header .btn{
     CONTACT
 ****************/
 
+#contact .container{
+    color: var(--secondary-color);
+}
+
 #contact .col-8 input{
     width: 100%;
     border: none;
@@ -138,17 +142,64 @@ header .btn{
     padding: 15px 0;
 }
 
+#contact .ruler{
+    background-color: var(--secondary-color);
+}
+
 #contact .btn{
-    border: 1px solid gray;
-    margin-top: 20px;
+    background-color: var(--third-color);
+    color: var(--primary-color);
 }
 
 /****************
     FOOTER
 ****************/
 
+footer{
+
+    background-color: var(--footer-color);
+
+
+}
+
+footer .container{
+    color: var(--primary-color);
+}
+
+
+
 
 footer li{
     margin: 0 10px;
     list-style: none;
+    aspect-ratio: 1;
+}
+
+footer .ms_padding{
+    padding: 0;
+}
+
+footer .ul{
+    
+    line-height: 40px;
+}
+
+footer .btn{
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/****************
+    ASIDE
+****************/
+
+
+aside{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+
 }
